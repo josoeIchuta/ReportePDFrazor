@@ -12,11 +12,9 @@
 <script src="~/lib/jquery/dist/jquery.js"></script>
 <button class="btnPdf">Generar Pdf</button>
 <script type="text/javascript">
-$(document).ready(function(){
-  $("button").click(function () {
-          window.open("../Pages/PrintStudent?param=1","_blank")
-          // window.open('https://www.freecodecamp.org/','fCC_WindowName')
-          // alert( "Handler for .click() called." );
-      });
-});
+    $(document).ready(function () {
+        $("button").click(function () {
+            window.open("Index?handler=Reporte&id=1", "_blank")
+        });
+    });
 </script>
